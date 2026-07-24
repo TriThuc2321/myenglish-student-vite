@@ -12,7 +12,7 @@ import { pageMeta } from '@/utils/metadata';
 export const meta: MetaFunction = () =>
   pageMeta(
     'Login',
-    'Sign in with Google to access the MyEnglish management dashboard and tools.',
+    'Sign in with Google to access your MyEnglish student account.',
   );
 
 export default function LoginPage() {

@@ -4,14 +4,14 @@ import { type MetaFunction } from 'react-router';
 import { pageMeta } from '@/utils/metadata';
 
 export const meta: MetaFunction = () =>
-  pageMeta('Home', 'Your MyEnglish student learning home.');
+  pageMeta('Online Tests', 'View your MyEnglish online tests.');
 
-export default function HomePage() {
+export default function OnlineTestsPage() {
   const { t } = useTranslation();
 
   return (
     <div className="bg-surface">
-      <h1 className="text-2xl font-bold">{t('home.title')}</h1>
+      <h1 className="text-2xl font-bold">{t('onlineTests.title')}</h1>
     </div>
   );
 }
